@@ -1,0 +1,53 @@
+[
+    {
+      "key": "UserName",
+      "type": "input",
+      "defaultValue": "",
+      "templateOptions": {
+        "label": "UserName",
+        "description": "The UserName to connect to the webservice",
+        "required": true
+      }
+    },
+    {
+      "key": "Password",
+      "type": "input",
+      "defaultValue": "",
+      "templateOptions": {
+        "type": "password",
+        "label": "Password",
+        "description": "The passowrd to connect to the webservice",
+        "required": true
+      }
+    },
+    {
+      "key": "BaseUrl",
+      "type": "input",
+      "defaultValue": "https://<URL>:<Port>/<customername>/WS/Productie/Codeunit/Mercash_Web_Service_Ext",
+      "templateOptions": {
+        "label": "BaseUrl",
+        "description": "The URL to the webservice.",
+        "required": true
+      }
+    },
+    {
+      "key": "parMenu",
+      "type": "input",
+      "defaultValue": "HELLOID",
+      "templateOptions": {
+        "label": "parMenu",
+        "description": "The Menu Name within Mercash",
+        "required": true
+      }
+    },
+    {
+      "key": "ProxyAddress",
+      "type": "input",
+      "defaultValue": "",
+      "templateOptions": {
+        "label": "ProxyAddress",
+        "description": "The URL of the proxyaddress",
+        "required": false
+      }
+    }
+  ]
